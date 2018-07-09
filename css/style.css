@@ -1,0 +1,323 @@
+* {
+  box-sizing: border-box;
+  font-family: Helvetica;
+ /*outline: 1px solid red; */
+  
+}
+
+body {
+    width: 100%;
+    margin: 0 auto;
+    border-right: 50px solid #dddddd;
+    border-left: 50px solid #dddddd;
+    border-bottom: 40px solid #dddddd;
+
+    background-color: white;
+
+}
+
+.grid {
+  position: relative;
+}
+
+.banner {
+  background-color: #2e2e2e;
+  height: 50px;
+  width: 100%;
+
+}
+
+div {
+  
+ /*outline: 1px solid green; */
+
+}
+
+nav {
+  ;
+
+}
+
+
+.navbar {
+  width: 100%;
+  margin: 0;
+  height: 35px;
+  background-color: #2d2d2d;
+}
+
+.menubar {
+  display: flex;
+  flex-direction: row;
+}
+
+div.options {
+    padding-left: 15px;
+    padding-top: 9px;
+}
+
+a { 
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  justify-content: space-between;
+  margin-right: 15px;
+}
+
+.buttons {
+  display: flex;
+  width: 50%;
+  /*70%*/
+  justify-content: space-between;
+}
+
+button {
+  border: none;
+  background-color: #feffdd;
+
+
+}
+
+.colorblue:hover{
+  cursor: pointer;
+  background-color: #a4d9e9;
+  color: black;
+}
+
+
+.uppermenu {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.row {
+  display: flex;
+
+  /* justify-content:
+  flex-start
+  center-
+  flex-end-
+  space-between 
+  space-around 
+  
+  juega con la alineación / distribuye  */
+}
+
+.text {
+  position: relative;
+
+}
+
+.mfahp {
+  position: aboslute;
+  width: 200%;
+}
+
+h1 {
+  font-size: 22px;
+}
+
+.parcontent{
+  font-size: 15px;
+  word-spacing: 3px;
+}
+
+.parcontentimage{
+  font-size: 15px;
+}
+
+.paragraph {
+  margin-right: 15px;
+  padding-left: 15px;
+}
+
+.campusjr {
+  display: inline-flex;
+  flex-direction: row-reverse; 
+}
+
+
+.imageright {
+  width: 60%;
+  height: auto;
+  margin: 20px 0 0 10px;
+}
+
+.glassell {
+  display: inline-flex;
+  flex-direction: row; 
+
+}
+
+figure {
+  width: 50%;
+  flex-wrap: nowrap;
+}
+
+.schoolart{
+  margin-right: 15px;
+  margin-left: 15px;
+  padding-right: 5px;
+}
+
+p.schooldata {
+margin-right:0;
+margin-right: 0;
+}
+
+.alfred{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.textleft {
+  width: 50%;
+}
+
+
+
+.content {
+  
+}
+
+
+.column {
+  /*border: 1px solid green;
+  height: 200px; */
+  width: 25%;
+  flex: 3;
+}
+
+.bottomdata{
+  font-size: 16px;
+  width: 170%;
+  margin-left: 15px;
+  display: flex;
+  flex-direction: row; 
+  align-content: space-around;
+}
+
+.sidemenu {
+	margin-top: 66px;
+  flex: 2;
+}
+
+.eventime{
+
+  display: inline-flex;
+}
+
+.imgevent{
+  width: 40%;
+  height: 40%;
+  margin-bottom: 20px;
+}
+
+.gallerytitle {
+  color: grey;
+  font-size:10px;
+}
+
+.videotitle a{
+  color: #397bc1;
+  font-size: 10px;
+  font-weight: bolder;
+}
+
+.eventime {
+  font-size: 10px;
+  margin-top: 0;
+  margin-bottom: 0;
+
+}
+
+.videotext {
+    width: 180px;
+    height: 100px;
+      margin-left:10px;
+}
+
+.opt{
+    border-top: 2px solid gray;
+    padding-top: 0;
+    width: 100%;
+}
+h5.opt{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.info {
+  font-weight: lighter;
+  color: black; 
+}
+
+
+
+.newsletter{
+    position: fixed;
+
+    bottom: 50px;
+    right: 15px;
+
+    padding: 15px;
+
+    background-color: #3b4ba0;
+    color: #ffffff;
+}
+
+
+.news-one{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+    padding-bottom: 15px;
+}
+
+.news-text i{
+    color: #DB4B38;
+}
+
+.container-search{
+    width: 300px;
+    height: 30px;
+    border-radius:2px;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    border:2px solid rgb(204, 204, 204);
+  }
+
+  .entry {
+    margin-top: 5px;
+    margin-bottom: 5px;  
+    font-size: 13px;
+    font-weight: bolder;
+  }
+
+    input{
+     flex: 1; 
+     border: 0;
+     border-color: rgb(204, 204, 204);
+     border-radius: 2px;
+    }
+
+    .imgnewsletter {
+      width: 3%;
+    }
+
+footer.mfahp {
+  width: 500px;
+}
+
+  /* .double {
+  color: blue;
+  font-size: 35px;
+  font-weight: bold;
+  width; 50%;
+  flex: 1;
+width: calc(100% - )
+}
